@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
     const menu = document.querySelector('.mobile-menu');
 
     btn?.addEventListener('click', () => {
-      menu?.classList.toggle('hidden');
+      menu?.classList.toggle('hidden'); // comment
     });
 
   }
